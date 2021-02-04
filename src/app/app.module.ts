@@ -6,7 +6,7 @@ import { MapComponent } from './map/map.component';
 import {LeafletModule} from "@asymmetrik/ngx-leaflet";
 import { GeocodingComponent } from './shared/geocoding/geocoding.component';
 import { MapPointFormComponent } from './shared/map-point-form/map-point-form.component';
-import { ResultListComponent } from './shared/result-list/result-list.component';
+import { ResultsListComponent } from './shared/results-list/results-list.component';
 import {NominatimService} from "./services/nominatim-service";
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
@@ -17,7 +17,7 @@ import {HttpClientModule} from "@angular/common/http";
     MapComponent,
     GeocodingComponent,
     MapPointFormComponent,
-    ResultListComponent
+    ResultsListComponent
   ],
   imports: [
     BrowserModule,

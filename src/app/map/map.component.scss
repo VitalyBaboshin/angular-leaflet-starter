@@ -1,3 +1,11 @@
 #map {
-  height: 600px;
+  height: 300px;
+}
+
+#details-panel {
+  text-align: left;
+}
+
+.leaflet-bottom, .leaflet-left {
+  pointer-events: auto;
 }
