@@ -47,10 +47,16 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "./node_modules/leaflet/dist/images",
+                "output": "assets/"
+              }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/leaflet/dist/leaflet.css"
             ],
             "scripts": []
           },
@@ -145,6 +151,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-leaflet-starter"
+    }
+  },
+  "defaultProject": "angular-leaflet-starter",
+  "cli": {
+    "analytics": false
+  }
 }
